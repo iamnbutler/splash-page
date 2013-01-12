@@ -1,0 +1,143 @@
+// Reset
+
+@import "_reset.scss";
+
+// Styles
+
+html, body {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F9F9F9;
+}
+
+.logo {
+	display: none;
+	position: absolute;
+	top: -140px;
+	left: -100px;
+	margin: 50% 0 0 50%;
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/logo.png");
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	.text-wrapper {
+		position: absolute;
+		bottom: -80px;
+		text-align: center;
+		width: 100%;
+		height: 50px;
+		h1 {
+			display: none;
+			font-size: 130%;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #333;
+			margin-bottom: 10px;
+		}
+		h2 {
+			display: none;
+			font-weight: 300;
+			color: #666;
+			font-size: 90%;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.coming-soon-wrapper {
+	width: 100%;
+	margin-top: 85%;
+	position: absolute;
+	.coming-soon {
+		display: none;
+		font-weight: 300;
+		font-size: 120%;
+		text-align: center;
+		color: #999;
+	}
+}
+
+.social {
+	display: none;
+	position: absolute;
+	top: -110px;
+	left: -70px;
+	width: 140px;
+	height: 140px;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+.social:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.twitter {
+	margin: 50% 0 0 20%;
+	background-image: url("../img/twitter-logo.png");
+}
+
+.behance {
+	margin: 50% 0 0 35%;
+	background-image: url("../img/behance-logo.png");
+}
+
+.dribbble {
+	margin: 50% 0 0 65%;
+	background-image: url("../img/dribbble-logo.png");
+}
+
+.github {
+	margin: 50% 0 0 80%;
+	background-image: url("../img/github-logo.png");
+}
+
+@media screen and (max-width: 1600px) {
+	.logo {
+		display: none;
+		position: absolute;
+		top: -120px;
+		left: -80px;
+		margin: 50% 0 0 50%;
+		width: 160px;
+		height: 160px;
+	}
+
+	.social {
+		top: -100px;
+		left: -60px;
+		width: 120px;
+		height: 120px;
+	}
+
+	.twitter {
+		margin: 50% 0 0 10%;
+	}
+
+	.behance {
+		margin: 50% 0 0 27%;
+	}
+
+	.dribbble {
+		margin: 50% 0 0 73%;
+	}
+
+	.github {
+		margin: 50% 0 0 90%;
+	}
+}
