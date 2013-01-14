@@ -41,16 +41,6 @@ a:focus {
 a:hover, a:active {
   outline: 0; }
 
-::-moz-selection {
-  background: #fe57a1;
-  color: #fff;
-  text-shadow: none; }
-
-::selection {
-  background: #fe57a1;
-  color: #fff;
-  text-shadow: none; }
-
 html, body {
   position: relative;
   overflow: hidden;
@@ -167,3 +157,67 @@ body {
 
   .github {
     margin: 50% 0 0 90%; } }
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+    position: absolute;
+    top: -120px;
+    left: -80px;
+    margin: 50% 0 0 50%;
+    width: 160px;
+    height: 160px; }
+
+  .social {
+    top: 0px;
+    left: -50px;
+    width: 100px;
+    height: 100px; }
+
+  .twitter {
+    margin: 10% 0 0 18%; }
+
+  .behance {
+    margin: 10% 0 0 40%; }
+
+  .dribbble {
+    margin: 10% 0 0 60%; }
+
+  .github {
+    margin: 10% 0 0 82%; } }
+@media screen and (max-width: 520px) {
+  .social {
+    left: -30px;
+    width: 60px;
+    height: 60px; } }
+/* iPhone fix */
+@media screen and (max-height: 480px) {
+  .text-wrapper {
+    bottom: -60px; }
+    .text-wrapper h1 {
+      margin-bottom: 5px; }
+
+  .coming-soon-wrapper {
+    margin-top: 90%; }
+
+  .logo {
+    top: -80px;
+    left: -60px;
+    width: 120px;
+    height: 120px; }
+
+  .social {
+    left: -20px;
+    width: 40px;
+    height: 40px; }
+
+  .twitter {
+    margin: 5% 0 0 18%; }
+
+  .behance {
+    margin: 5% 0 0 40%; }
+
+  .dribbble {
+    margin: 5% 0 0 60%; }
+
+  .github {
+    margin: 5% 0 0 82%; } }
